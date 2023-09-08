@@ -33,7 +33,6 @@ htmlLista = [
     "</html>\n",
 ]
 
-
 lista = [
     "Colt McCoy QB, CLE\t135\t222\t1576\t6\t9\t60.8%\t74.5\n",
     "Josh Freeman QB, TB\t291\t474\t3451\t25\t6\t61.4%\t95.9\n",
@@ -70,10 +69,8 @@ lista = [
     "Sam Bradford QB, STL\t354\t590\t3512\t18\t15\t60.0%\t76.5\n",
 ]
 
-
 numero = 0
 celula = ""
-
 
 with open("qbdata.txt", "w") as arquivo:
     for linha in range(len(lista)):
